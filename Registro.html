@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 62.5%;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/css_Registro.css">
+    <script src="https://kit.fontawesome.com/6640d9b50e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/scss_index.css">
+    <title>Registro</title>
+</head>
+<fieldset style="background-color: #191a17">
+    <marquee>
+        <h1 style="color: rgb(255, 255, 255)">
+            ¡HASTA 70% DESCUENTOS EN TODOS LOS CURSOS! APROVECHA LAS REBAJAS RELAMPAGO DE 24 HORAS
+        </h1>
+    </marquee>
+</fieldset>
+<body background="imagen/fondo.jpg">
+    <header>
+        <div class="contenedor">
+            <nav class="navegacion-principal contenedor_ sombra">
+                <a href="index.html">AprendeOnly</a>
+                <a href="NuestrosCursos.html">Nuestros Cursos</a>
+                <a href="iniciar.html">Iniciar sesion</a>
+                <a href="Registro.html">Registrarse</a>
+                <a href="SobreNosotros.html">Sobre Nosotros</a>
+                <a href="aplicaciones.html">Aplicaciones</a>
+                    <button class="switch" id = "switch">
+                        <span><i class="fa-solid fa-sun"></i></span>
+                        <span><i class="fa-solid fa-moon"></i></span>
+                    </button>
+            </nav>
+        </div>
+    </header>
+    <div class="contenedor-formulario">
+        <form class="formulario">
+            <br>
+            <fieldset>
+                <legend>Llena el formulario y empieza a aprender</legend>
+                <div class="contenedor-campos">
+                    <div class="campos">
+                        <label>Nombre</label>
+                        <br>
+                        <input id="nombre" type="text" placeholder="Tu nombre ">
+                    </div>
+                    <div class="campos">
+                        <label>Sexo</label>
+                        <br>
+                        <div id="sexo">
+                            <input id="sexoH" type="radio" name="sexo">Hombre <br>
+                            <input id="sexoM" type="radio" name="sexo">Mujer
+                        </div>
+                    </div>
+                    <div class="campos">
+                        <label>Fecha de Nacimiento</label> <br>
+                        <input id="fecha" type="date" placeholder="Fecha de Nacimiento">
+                        </div">
+
+                        <div class="campos">
+                            <label>Telefono</label>
+                            <br>
+                            <input id="telefono" type="tel" placeholder="Telefono">
+                        </div>
+
+                        <div class="campos">
+                            <label>Correo</label>
+                            <br>
+                            <input id="correo" type="email" placeholder="Correo">
+                        </div>
+
+                        <div class="campos">
+                            <label>Contraseña</label>
+                            <br>
+                            <input id="contraseña" type="password" placeholder="Contraseña">
+                        </div>
+                    </div>
+                        <input id="boton" class="boton" type="submit" value="Registrarse">
+                </div>
+
+            </fieldset>
+        </form>
+        <div class="logo">
+            <img class="img_mona-China" src="imagen/logo1.png">
+            <h2>Desata tu potencial y empieza tu trayecto profesional</h2>
+        </div>
+    </div>
+    <div class="Pie">
+        <footer>
+            <center>
+                <a href="SobreNosotros.html">Sobre nosotros</a>
+                <br>
+                <br>
+                <a href="#">Contactanos</a>
+                <br>
+                <br>
+                <a href="#">Terminos y Condiciones</a>
+                <br>
+                <br>
+                <a href="index.html">© 2022 AprendeOnly, Inc.</a>
+                <br>
+                <br>
+                <a href="Reclamaciones.html">Libro de Reclamaciones</a>
+                <br>
+                <br>
+            </center>
+        </footer>
+    </div>
+    <script src="js/scritp.js"></script>
+    <script src="js/miscript.js"></script>
+</body>
+</html>

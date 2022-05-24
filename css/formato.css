@@ -1,0 +1,19 @@
+body{
+	background-repeat: no-repeat;
+  	background-size: 36%;
+  	background-position: right 600px top 370px;
+   	color:#B5EDFF;
+ 	background:linear-gradient(to bottom,skyblue, #2242E7 60%);
+  	font-family: 'Lato', sans-serif;
+  	font-size:20px;
+  	text-align:center;
+}
+#caracteristica{
+	margin: auto;
+	width: 60%;
+	color: orange;
+	padding: 21px;
+}
+#espacio{
+	font-size: 25px;
+}

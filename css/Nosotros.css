@@ -1,0 +1,138 @@
+body{
+	background-image: url("fondo.jpg");
+	background: #e6d3ff;
+    margin: 0 120px;
+}
+.cabecera{
+    background-color: rgb(231, 114, 231);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.cabecera-a{
+    padding: 20px;
+    text-decoration: none;
+    color: black;
+}
+#logo{
+	width: 220px;
+	height: 70px
+}
+.fila{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fila div{
+	width: 450px;
+	height: 450px;
+}
+.itm-curso{
+  border-style: dashed;
+	align-items: center;
+	padding: 20px;
+}
+.itm-curso img{
+	width: 200px;
+	height: 200px;
+}
+.itm-curso img{
+	flex-basis: calc(33.3% - 60px);
+}
+.centrar{
+	text-align: center;
+}
+main{
+	text-align: center;
+}
+.Pie{
+    padding: 20px;
+    background-color: rgb(63, 63, 63);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.base-b{
+	text-align: center;
+	background: #8400ff;
+    flex-basis: calc(50% - 50px);
+    padding-right: 15px; 
+	text-decoration: none;
+	color: white;
+}
+
+.ventana{
+	background: beige;
+	width: 30%;
+	border-radius:22px ;
+	text-align: center;
+	padding: 33px;
+	min-height: 250px;
+	position:  absolute;
+	left: 34%;
+	top: 35%;
+	display: none;
+}
+:root {
+    --fuenteHeading: 'PT Sans', sans-serif;
+    --fuenteParrafos: 'Open Sans', sans-serif;
+
+    --primario: #763c78;
+    --blanco: #ffffff;
+    --negro: #191a17;
+}
+
+.sombra{
+    -webkit-box-shadow: 9px 11px 15px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 9px 11px 15px 0px rgba(0,0,0,0.12);
+    box-shadow: 9px 11px 15px 0px rgba(0,0,0,0.12);
+}
+
+.titulo {
+    text-align: center;
+    background-color: var(--negro);
+    color: var(--blanco);
+    padding: 5px;
+}
+
+.navegacion-principal {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem auto;
+}
+
+.navegacion-principal a {
+    font-weight: bold;
+    padding: 1rem;
+    border-radius: 0.8rem;
+}
+
+.navegacion-principal__input{
+    border-radius: 0.8rem;
+    background-color: transparent;
+    text-align: center;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--negro);
+    color: var(--blanco);
+}
+
+.boton{
+    width: auto; 
+    height:  0.5rem; 
+    background-color: rgb(135, 39, 173); 
+    color: #ffff; 
+    padding: 1rem 1rem 1.8rem 1rem; 
+    font-size: .9rem; 
+    text-decoration: none; 
+    text-transform: uppercase; 
+    font-weight: bold; 
+    border-radius: 0.5rem; 
+    text-align: center;
+}
+
+.boton:hover{
+    cursor: pointer;
+    background-color: var(--negro); 
+    color: #ffff;
+}

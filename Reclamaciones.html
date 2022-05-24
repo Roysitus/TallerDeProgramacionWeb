@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 62.5%;">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/css_Registro.css">
+    <script src="https://kit.fontawesome.com/6640d9b50e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="css/scss_index.css">
+    <title>Libro de Reclamaciones</title>
+</head>
+<div class="titulo">
+    <h1>
+        Libro de Reclamaciones
+    </h1>
+</div>
+<body background="imagen/fondo.jpg">
+    <header>
+        <div class="contenedor">
+            <nav class="navegacion-principal contenedor_ sombra">
+                <a href="index.html">AprendeOnly</a>
+                <a href="NuestrosCursos.html">Nuestros Cursos</a>
+                <a href="iniciar.html">Iniciar sesion</a>
+                <a href="Registro.html">Registrarse</a>
+                <a href="SobreNosotros.html">Sobre Nosotros</a>
+                <a href="aplicaciones.html">Aplicaciones</a>
+                    <button class="switch" id = "switch">
+                        <span><i class="fa-solid fa-sun"></i></span>
+                        <span><i class="fa-solid fa-moon"></i></span>
+                    </button>
+            </nav>
+        </div>
+    </header>
+    <main class="contenedor">
+        <div class="contenedor_reclamaciones">
+            <form class="libro_reclamaciones">
+                <div class="campo">
+                    <label class="campo_label" for="nombre">Nombre(s)</label>
+                    <input class="campo_field" type="text" id="nombre">
+                </div>
+    
+                <div class="campo">
+                    <label class="campo_label" for="apellidos">Apellidos</label>
+                    <input class="campo_field" type="text" id="apellidos">
+                </div>
+    
+                <div class="campo">
+                    <label class="campo_label" for="correo">Correo</label>
+                    <input class="campo_field" type="email" id="correo">
+                </div>
+    
+                <div class="campo">
+                    <label class="campo_label" for="telefono">Telefono</label>
+                    <input class="campo_field" type="tel" id="telefono">
+                </div>
+    
+                <div class="campo">
+                    <label class="campo_label" for="DNI">DNI</label>
+                    <input class="campo_field" type="text" id="DNI">
+                </div>
+    
+                <div class="campo">
+                    <label class="campo_label" for="queja">Detalle Reclamo</label>
+                    <textarea class="campo_field campo_field--textarea" id="queja"></textarea>
+                </div>
+
+                <div class="campo">
+                    <input type="submit" value="Enviar" class="boton-queja">
+                </div>
+            </form>
+            </div>
+    </main>
+
+
+    <div class="Pie">
+        <footer>
+            <center>
+                <a href="SobreNosotros.html">Sobre nosotros</a>
+                <br>
+                <br>
+                <a href="#">Contactanos</a>
+                <br>
+                <br>
+                <a href="#">Terminos y Condiciones</a>
+                <br>
+                <br>
+                <a href="index.html">© 2022 AprendeOnly, Inc.</a>
+                <br>
+                <br>
+                <a href="Reclamaciones.html">Libro de Reclamaciones</a>
+                <br>
+                <br>
+            </center>
+        </footer>
+    </div>
+
+    <script src="js/reclamaciones.js"></script>
+    <script src="js/miscript.js"></script>
+</body>
+
+</html>
